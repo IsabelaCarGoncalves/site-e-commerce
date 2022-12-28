@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Outfit&family=Roboto+Mono:wght@200&display=swap');
+
+
+table, th, tr, td, thead, tbody{
+    border: 3px solid #a7a2a9;
+    border-collapse: collapse;
+    background-color: #f4f7f5;
+    padding: 10px;
+}
+td img{
+    height: 100px;
+    width: 100px;
+
+
+}
+
+td{
+    font-family: 'Alegreya', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+th p{
+    font-family: 'Alegreya', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.tabela{
+    padding:50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+

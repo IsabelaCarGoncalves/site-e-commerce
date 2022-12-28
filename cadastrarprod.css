@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Outfit&family=Roboto+Mono:wght@200&display=swap');
+
+main{
+    width: 100%;
+    padding: 10%;
+}
+
+.container{
+    width: 400px;
+    height: 300px;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    border: solid;
+    padding: 10px; 
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center; 
+    padding: 25px;  
+}
+
+.container label{
+    font-family:  'Outfit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+div .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+.lab{
+    padding: 10px;
+}
+

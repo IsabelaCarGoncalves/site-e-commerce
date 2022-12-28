@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' https://*; child-src 'none';"> -->
+    <meta name="description" content="E-commerce de bolsas de Grife">
+    <meta name="author" content="Isabela Gonçalves">
+    <title>PRODUTOS CADASTRADOS</title>
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="cadastrarprod.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="index.html">
+                Prada & CO
+            </a>
+            <ul class="navmenu">
+                <li>
+                    <a href="produtoscadastrados.html" class="navlink">
+                        TODOS OS PRODUTOS
+                    </a>
+
+                </li>
+                <li>
+                    <a href="vendas.html" class="navlink">
+                        VENDAS
+                    </a>
+                </li>
+                <li>
+                    <a href="cadastrarprodutos.html" class="navlink">
+                        CADASTRAR PRODUTOS
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+
+    <main>
+        <div class="item">
+            <form action="cadastrado.html" class="container">
+                <div class="lab">
+                    <label for="fname">Nome do Produto</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+                <div class="lab">
+                    <label for="lname">Valor do Produto</label><br>
+                    <input type="number" id="lname" name="lname"><br>
+                </div>
+                <div class="lab">
+                    <label for="lfile">Imagens</label><br>
+                    <input type="file" id="lfile" name="lfile"><br>
+                </div>
+                <div class="lab"> 
+                    <label for="bags">Marca</label><br>
+                    <select>
+                        <option value="prada">Prada</option>
+                        <option value="louis vuitton">Louis Vuitton</option>
+                        <option value="gucci" selected>Gucci</option>
+                        <option value="fendi">Fendi</option>
+                    </select>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <hr>
+    <footer class="containerfooter">
+
+        <div class="itemsfooter">
+            <h2>Prada & CO.</h2>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

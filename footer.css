@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+.containerfooter{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding:10px;
+    background-color: #08090a;
+   
+}
+
+.itemsfooter{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 10px;
+    background-color:  ##f4f7f5;
+    
+}
+
+.itemsfooter h2{
+
+    font-family: 'Passions Conflict', cursive;
+    font-size: 60px;
+    color:#f4f7f5;
+}
+
+
+
+
+
+main{
+    background-color: #e9ecef;
+}

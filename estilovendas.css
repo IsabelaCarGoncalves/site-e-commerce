@@ -1,0 +1,31 @@
+.gif {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    margin: 10px;
+    margin-bottom: 20px;
+    justify-items: center;
+}
+
+.giffendi img{
+    height:619px;
+    width:1100px;
+
+}
+
+.gifprada img{
+    height:619px;
+    width:1100px;
+}
+
+.gifgucci img{
+    height:619px;
+    width:1100px;
+}
+
+.giflv img{
+    height:619px;
+    width:1100px;
+}
